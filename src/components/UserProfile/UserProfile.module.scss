@@ -1,0 +1,52 @@
+.userProfile {
+  width: 100%;
+
+  .header {
+    h3 {
+      margin-left: 35px;
+    }
+
+    position: relative;
+
+    button {
+      position: absolute;
+      top: 0;
+      right: 35px;
+      width: 110px;
+      height: 30px;
+    }
+  }
+
+  .form {
+    font-size: 12px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        margin: 5px 35px 0;
+      }
+
+      input {
+        width: 250px;
+        height: 25px;
+
+        margin: 5px 0 0 35px;
+      }
+
+      textarea {
+        margin: 5px 35px 20px;
+        width: 430px;
+        height: 80px;
+        resize: none;
+      }
+
+      button {
+        margin: 0 auto;
+        width: 110px;
+        height: 30px;
+      }
+    }
+  }
+}

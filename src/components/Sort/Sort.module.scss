@@ -1,0 +1,36 @@
+%sortText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.sortBlock {
+  width: 200px;
+
+  background: #BDBDBD;
+
+  .title {
+    @extend %sortText;
+
+    font-weight: 600;
+    font-size: 14px;
+    margin: 35px 60px;
+  }
+
+  button {
+    @extend %sortText;
+
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+    width: 70px;
+    height: 30px;
+
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+  }
+}
